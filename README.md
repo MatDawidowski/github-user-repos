@@ -1,3 +1,4 @@
+```
 A simple Spring application that exposes a REST endpoint to fetch non-fork GitHub repositories of a given user. For each repository, it also returns branches and the latest commit SHA.
 
 Features:
@@ -33,8 +34,21 @@ How to Run the Project (Windows):
     - Open your terminal in any folder and run:
       - git clone https://github.com/MatDawidowski/github-user-repos.git
       - cd github-user-repos
-      -  mvn spring-boot:run
+      - mvn spring-boot:run
   Access the API:
     - Open your browser and go to:
     - http://localhost:8080/api/github/<github_username>/repositories
+
+How to RUn the Project (Linux):
+  Install Maven (if not already installed):
+    - open terminal and write "sudo apt install maven"
+   Run the application:
+    - Open your terminal in any folder and run:
+      - git clone https://github.com/MatDawidowski/github-user-repos.git
+      - cd github-user-repos
+      - mvn spring-boot:run
+   Access the API:
+    - Open your browser and go to:
+    - http://localhost:8080/api/github/<github_username>/repositories 
+```
      
