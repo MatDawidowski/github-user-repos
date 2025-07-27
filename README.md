@@ -39,10 +39,10 @@ How to Run the Project (Windows):
       cd github-user-repos
       mvn spring-boot:run
       ```
-  Access the API:
+- Access the API:
     - Open your browser and go to: http://localhost:8080/api/github/<github_username>/repositories
 
-How to RUn the Project (Linux):
+How to Run the Project (Linux):
 - Install Maven (if not already installed):
     - open terminal and write
     ```bash
@@ -55,6 +55,6 @@ How to RUn the Project (Linux):
       cd github-user-repos
       mvn spring-boot:run
       ```
-   Access the API:
+- Access the API:
     - Open your browser and go to: http://localhost:8080/api/github/<github_username>/repositories
      
