@@ -57,7 +57,4 @@ How to Run the Project (Linux):
       ```
 - Access the API:
     - Open your browser and go to: http://localhost:8080/api/github/<github_username>/repositories
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
      
